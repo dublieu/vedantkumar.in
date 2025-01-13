@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Vedant Kumar',
 
   // open graph metadata
-  description: "Vedant Kumar, a teen prodigy, changemaker, and visionary leader, is the Founder of Dublieu, India's Biggest Oppourunities Platform on the mission to democratize access to Opportunities for Students.",
+  description: "Vedant Kumar, a teen prodigy, changemaker, and visionary leader, is the Founder of Dublieu, India's Biggest Opportunities Platform on the mission to democratize access to Opportunities for Students.",
 
   // social usernames
   linkedin: 'vkworkofficial',
