@@ -2,27 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '17a24011ed0e80358bfcc191de09daea',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Vedant Kumar -- Founder of Dublieu',
+  domain: 'vedantkumar.in',
+  author: 'Vedant Kumar',
 
-  // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  // open graph metadata
+  description: "Vedant Kumar, a teen prodigy, changemaker, and visionary leader, is the Founder of Dublieu, India's Biggest Oppourunities Platform on the mission to democratize access to Opportunities for Students.",
 
-  // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  // social usernames
+  linkedin: 'vkworkofficial',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
