@@ -23,6 +23,30 @@ export default class MyDocument extends Document {
                 `,
               }}
             />
+
+            {/* Schema.org JSON-LD */}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org/",
+                  "@type": "Person",
+                  "name": "Vedant Kumar",
+                  "url": "https://www.vedantkumar.in/",
+                  "image": "https://cdn.prod.website-files.com/673e0b4382cf2c3ada1ef19c/6787af8ffc15ed13e58a7181_2.avif",
+                  "sameAs": [
+                    "https://www.instagram.com/vkworkofficial",
+                    "https://www.linkedin.com/in/vkworkofficial/",
+                    "https://www.vedantkumar.in/"
+                  ],
+                  "jobTitle": "Founder-CEO",
+                  "worksFor": {
+                    "@type": "Organization",
+                    "name": "Dublieu Educational Services LLP"
+                  }
+                }),
+              }}
+            />
           </Head>
 
           <body>
